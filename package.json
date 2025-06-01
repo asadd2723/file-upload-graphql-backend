@@ -1,0 +1,35 @@
+{
+  "name": "file-upload-graphql-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asadd2723/file-upload-graphql-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/asadd2723/file-upload-graphql-backend/issues"
+  },
+  "homepage": "https://github.com/asadd2723/file-upload-graphql-backend#readme",
+  "dependencies": {
+    "@apollo/server": "^4.12.1",
+    "@prisma/client": "^6.8.2",
+    "express": "^4.21.2",
+    "graphql": "^16.11.0",
+    "graphql-upload": "^17.0.0",
+    "prisma": "^6.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
