@@ -29,5 +29,6 @@ app.use('/graphql', expressMiddleware(server, {
 
 const httpServer = http.createServer(app);
 httpServer.listen({ port: 4000 }, () =>
-  console.log(`🚀 Server ready at http://localhost:4000/graphql`)
+  console.log(`🚀 Server ready at........... http://localhost:4000/graphql`)
 );
+
